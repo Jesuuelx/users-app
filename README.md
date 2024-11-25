@@ -10,3 +10,8 @@
 ## Arquitectura del Proyecto
 
 La arquitectura del proyecto esta basada en Angular con Typescript, adicionalmente consta de de la versión angular 19, y tiene algunas depencias importantes como: Material y primeflex para el tema de estilos.
+
+## nota
+
+Tener una versión de node > 20
+Tener git instalado para clonar o si no descargar zip
