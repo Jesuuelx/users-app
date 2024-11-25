@@ -1,0 +1,16 @@
+<ng-template #divLoading>
+  <mat-grid-list cols="1">
+    <mat-grid-tile>
+      <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+  </mat-grid-list>
+</ng-template>
+
+<h1>List of users</h1>
+<mat-divider></mat-divider>
+
+<div class="grid bm-8 pt-3" *ngIf="users.length > 0; else divLoading">
+  <div *ngFor="let user of users" class="col-12 sm:col-4 md:col-3 xl:col-2">
+    <users-user-card [user]="user"></users-user-card>
+  </div>
+</div>

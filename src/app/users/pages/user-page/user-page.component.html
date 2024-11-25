@@ -1,0 +1,46 @@
+<ng-template #divLoading>
+  <mat-grid-list cols="1">
+    <mat-grid-tile>
+      <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+  </mat-grid-list>
+</ng-template>
+<div *ngIf="user; else divLoading" class="grid p-2">
+  <mat-card class="col-12 sm:col-6">
+    <mat-card-header>
+      <mat-card-title>{{ user.name_user }}</mat-card-title>
+      <mat-card-subtitle>Cellphone: {{ user.cellphone }}</mat-card-subtitle>
+    </mat-card-header>
+    <img [src]="user | userImage" [alt]="user.name_user" mat-card-image />
+  </mat-card>
+  <mat-card class="col-12 sm:col-6">
+    <mat-card-header>
+      <mat-card-title>Information</mat-card-title>
+      <mat-card-subtitle>Email: {{ user.email }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item>Cellphone: {{ user.cellphone }}</mat-list-item>
+        <mat-list-item>Favorite Contacts: {{ user.characters }}</mat-list-item>
+      </mat-list>
+
+      <h3>Last Messages</h3>
+      <mat-list>
+        <mat-list-item>
+          <span matListItemTitle>{{ user.last_message }}</span>
+          <span matListItemLine>...</span>
+        </mat-list-item>
+        <div *ngFor="let message of user.messages">
+          <mat-list-item>
+            <span matListItemTitle>{{ message.name }}</span>
+            <span>{{ message.message }}</span>
+          </mat-list-item>
+        </div>
+      </mat-list>
+      <mat-option *ngIf="user.messages.length === 0">
+        No tiene mensajes
+      </mat-option>
+      <button mat-button color="warn" (click)="goBack()">Regresar</button>
+    </mat-card-content>
+  </mat-card>
+</div>

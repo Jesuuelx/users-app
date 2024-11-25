@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "id": "dc-batman",
+      "name_user": "Batman",
+      "cellphone": "3026105531",
+      "email": "BruceWayne@google.com",
+      "last_message": "Detective Comics #27: Hey Batman, how are you?",
+      "characters": "Bruce Wayne"
+    },
+    {
+      "id": "dc-superman",
+      "name_user": "Superman",
+      "cellphone": "3026105531",
+      "email": "Kal-El@google.com",
+      "last_message": "Action Comics #1: Hey Superman, how are you?",
+      "characters": "Kal-El"
+    },
+    {
+      "id": "dc-flash",
+      "name_user": "Flash",
+      "cellphone": "3026105531",
+      "email": "JayGarrick@google.com",
+      "last_message": "Flash Comics #1: Hey Flash, how are you?",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+    },
+    {
+      "id": "dc-green",
+      "name_user": "Green Lantern",
+      "cellphone": "3026105531",
+      "email": "AlanScott@google.com",
+      "last_message": "All-American Comics #16: Hey Green Lantern, how are you?",
+      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+    },
+    {
+      "id": "dc-arrow",
+      "name_user": "Green Arrow",
+      "cellphone": "3026105531",
+      "email": "OliverQueen@google.com",
+      "last_message": "More Fun Comics #73: Hey Green Arrow, how are you?",
+      "characters": "Oliver Queen"
+    },
+    {
+      "id": "dc-wonder",
+      "name_user": "Wonder Woman",
+      "cellphone": "3026105531",
+      "email": "PrincessDiana@google.com",
+      "last_message": "All Star Comics #8: Hey Wonder, how are you?",
+      "characters": "Princess Diana"
+    },
+    {
+      "id": "dc-martian",
+      "name_user": "Martian Manhunter",
+      "cellphone": "3026105531",
+      "email": "J\"onn J\"onzz",
+      "last_message": "Detective Comics #225: Hey Martian, how are you?",
+      "characters": "Martian Manhunter"
+    },
+    {
+      "id": "dc-robin",
+      "name_user": "Robin/Nightwing",
+      "cellphone": "3026105531",
+      "email": "DickGrayson@google.com",
+      "last_message": "Detective Comics #38: Hey Robin, how are you?",
+      "characters": "Dick Grayson"
+    },
+    {
+      "id": "dc-blue",
+      "name_user": "Blue Beetle",
+      "cellphone": "3026105531",
+      "email": "DanGarret@google.com",
+      "last_message": "Mystery Men Comics #1: hey Blue, how are you?",
+      "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+    },
+    {
+      "id": "dc-black",
+      "name_user": "Black Canary",
+      "cellphone": "3026105531",
+      "email": "DinahDrake@google.com",
+      "last_message": "Flash Comics #86: hey Black, how are you?",
+      "characters": "Dinah Drake, Dinah Lance"
+    },
+    {
+      "id": "marvel-spider",
+      "name_user": "Spider Man",
+      "cellphone": "3026105531",
+      "email": "PeterParker@google.com",
+      "last_message": "Amazing Fantasy #15: hey spiderman, how are you?",
+      "characters": "Peter Parker"
+    },
+    {
+      "id": "marvel-captain",
+      "name_user": "Captain America",
+      "cellphone": "3026105531",
+      "email": "SteveRogers@google.com",
+      "last_message": "Captain America Comics #1: hey Captain, how are you?",
+      "characters": "Steve Rogers"
+    },
+    {
+      "id": "marvel-iron",
+      "name_user": "Iron Man",
+      "cellphone": "3026105531",
+      "email": "TonyStark@google.com",
+      "last_message": "Tales of Suspense #39: hey Iron, how are you?",
+      "characters": "Tony Stark"
+    },
+    {
+      "id": "marvel-thor",
+      "name_user": "Thor",
+      "cellphone": "3026105531",
+      "email": "ThorOdinson@google.com",
+      "last_message": "Journey into Myster #83; hey Thor, how are you?",
+      "characters": "Thor Odinson"
+    },
+    {
+      "id": "marvel-hulk",
+      "name_user": "Hulk",
+      "cellphone": "3026105531",
+      "email": "BruceBanner@google.com",
+      "last_message": "The Incredible Hulk #1: hey Hulk, how are you?",
+      "characters": "Bruce Banner"
+    },
+    {
+      "id": "marvel-wolverine",
+      "name_user": "Wolverine",
+      "cellphone": "3026105531",
+      "email": "JamesHowlett@google.com",
+      "last_message": "The Incredible Hulk #180: hey Wolverine, how are you?",
+      "characters": "James Howlett"
+    },
+    {
+      "id": "marvel-daredevil",
+      "name_user": "Daredevil",
+      "cellphone": "3026105531",
+      "email": "MatthewMichaelMurdock@google.com",
+      "last_message": "Daredevil #1: hey Daredevil, how are you?",
+      "characters": "Matthew Michael Murdock"
+    },
+    {
+      "id": "marvel-hawkeye",
+      "name_user": "Hawkeye",
+      "cellphone": "3026105531",
+      "email": "ClintonFrancisBarton@google.com",
+      "last_message": "Tales of Suspense #57: hey Hawkeye, how are you?",
+      "characters": "Clinton Francis Barton"
+    },
+    {
+      "id": "marvel-cyclops",
+      "name_user": "Cyclops",
+      "cellphone": "3026105531",
+      "email": "ScottSummers@google.com",
+      "last_message": "X-Men #1: hey Cyclops, how are you?",
+      "characters": "Scott Summers"
+    },
+    {
+      "id": "marvel-silver",
+      "name_user": "Silver Surfer",
+      "cellphone": "3026105531",
+      "email": "NorrinRadd@google.com",
+      "last_message": "The Fantastic Four #48: hey Silver, how are you?",
+      "characters": "Norrin Radd"
+    }
+  ]
+}
