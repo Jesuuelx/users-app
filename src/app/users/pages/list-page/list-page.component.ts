@@ -11,12 +11,16 @@ import { UsersService } from '../../services/users.service';
 })
 export class ListPageComponent implements OnInit {
   public users: User[] = [];
+  public errorMessage: string = '';
 
   constructor(private usersService: UsersService) {}
 
   ngOnInit(): void {
     this.usersService.getUsers().subscribe((users) => {
       this.users = users;
-    });
+    }),
+      (error: any) => {
+        this.errorMessage = error;
+      };
   }
 }
