@@ -30,7 +30,6 @@ La app esta realizada en Angular 19, adicionalmente se usaron librerias como mat
 - **users**: Este consta de varias paginas importantes, layout page es lo que nos permite que el diseño que tenga esta pagina sea transparente en todos los demas componentes a continuacion, es decir que sea el mismo, list page que es la vista principal, search page que es la pagina donde esta el buscador que filtra los usuarios, chat page para ver el historial de cada usuario y user page que consta de el detalle del usuario
 - **material**: Este modulo se hizo exclusivamente para centralizar los componentes utilizados de la libreria material y de esta manera tener todo centralizado y tocar un solo archivo de ser necesario
 - **shared**: este modulo se hizo para centralizar una pagina de errores, esta aparece cuando elegimos una ruta que no existe sin embargo no tiene diseño
-- **shared**: este modulo se hizo para centralizar una pagina de errores, esta aparece cuando elegimos una ruta que no existe sin embargo no tiene diseño
 - **auth** : la idea principal era iniciar desde un login pero no dio tiempo este modulo centraliza un layout personalizado lo que nos permite escalar a futuro en una pagina de registro tambien con diseño similar ademas de que se rige que la idea principal es que la pagina sea una web tipo administrador
   la ruta existe y podemos visualizar el modulo con el path /auth pero no es funcional hasta el momento
 
