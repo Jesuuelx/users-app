@@ -6,6 +6,7 @@
 2. Ejecutar `npm install`
 3. Levantar backend `npm run backend`
 4. Ejecutar la app `npm start` o bien `ng serve -o`
+5. Una vez ya corriendo el proyecto puedes ejecutar el comando `npm run test ` para correr los test automatizados en cypress, asegurate que tu localhost coincida con la url del archivo de testing
 
 ## Arquitectura del Proyecto
 
