@@ -1,0 +1,45 @@
+<ng-template #divLoading>
+  <mat-grid-list cols="2">
+    <mat-grid-tile>
+      <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+  </mat-grid-list>
+</ng-template>
+
+<div *ngIf="user; else divLoading" class="grid p-4">
+  <mat-card class="col-12 sm:col-6">
+    <mat-card-header>
+      <mat-card-title>{{ user.name_user }}'s</mat-card-title>
+      <mat-card-title>Messages</mat-card-title>
+      <mat-list class="mt-5" *ngIf="user.messages">
+        <div *ngFor="let message of user.messages">
+          <div class="mt-5 cursor-pointer" (click)="selectUser(message)">
+            <mat-card-subtitle class="flex flex-row justify-content-start">
+              <mat-icon>account_circle</mat-icon>
+              {{ message.name }} : {{ message.message }}</mat-card-subtitle
+            >
+          </div>
+          <mat-divider></mat-divider>
+        </div>
+      </mat-list>
+    </mat-card-header>
+  </mat-card>
+  <mat-card class="col-12 sm:col-6" *ngIf="user.messages.length > 0">
+    <mat-card-header>
+      <mat-card-title>Chat with </mat-card-title>
+      <mat-card-subtitle>UserName: {{ onSelectedUser.name }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item>Message from</mat-list-item>
+        <mat-list-item>Contact: {{ onSelectedUser.name }}</mat-list-item>
+        <mat-list-item>LastMessage: {{ onSelectedUser.message }}</mat-list-item>
+      </mat-list>
+
+      <button mat-button color="warn" (click)="goBack()">Back</button>
+    </mat-card-content>
+  </mat-card>
+  <mat-option *ngIf="user?.messages?.length === 0">
+    No tiene más mensajes hasta el momento
+  </mat-option>
+</div>

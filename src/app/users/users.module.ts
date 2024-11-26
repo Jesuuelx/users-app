@@ -10,6 +10,7 @@ import { MaterialModule } from '../material/material.module';
 import { CardComponent } from './components/card/card.component';
 import { UserImagePipe } from './pipes/user-image-pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ChatPageComponent } from './pages/chat-page/chat-page.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     SearchPageComponent,
     CardComponent,
     UserImagePipe,
+    ChatPageComponent,
   ],
   imports: [
     CommonModule,

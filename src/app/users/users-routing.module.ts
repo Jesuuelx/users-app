@@ -4,6 +4,7 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { ListPageComponent } from './pages/list-page/list-page.component';
 import { UserPageComponent } from './pages/user-page/user-page.component';
+import { ChatPageComponent } from './pages/chat-page/chat-page.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
       {
         path: 'person/:id',
         component: UserPageComponent,
+      },
+      {
+        path: 'chat/:id',
+        component: ChatPageComponent,
       },
       {
         path: '**',

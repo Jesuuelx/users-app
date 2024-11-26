@@ -4,6 +4,7 @@ import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 
 import { UsersService } from '../../services/users.service';
 import { User } from '../../interfaces/users.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-search-page',
@@ -16,7 +17,7 @@ export class SearchPageComponent {
   public users: User[] = [];
   public selectedHero?: User;
 
-  constructor(private usersService: UsersService) {}
+  constructor(private usersService: UsersService, private router: Router) {}
 
   searchUser() {
     const value: string = this.searchInput.value || '';
@@ -36,5 +37,6 @@ export class SearchPageComponent {
     this.searchInput.setValue(user.name_user);
 
     this.selectedHero = user;
+    this.router.navigate(['/users/person', user.id]);
   }
 }

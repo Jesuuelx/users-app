@@ -16,11 +16,7 @@
       #auto="matAutocomplete"
       (optionSelected)="onSelectedOption($event)"
     >
-      <mat-option
-        *ngFor="let user of users"
-        [value]="users"
-        [routerLink]="['/users/person/', user.id]"
-      >
+      <mat-option *ngFor="let user of users" [value]="user">
         {{ user.name_user }}
       </mat-option>
 
