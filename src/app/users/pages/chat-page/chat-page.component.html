@@ -1,45 +1,67 @@
-<ng-template #divLoading>
-  <mat-grid-list cols="2">
-    <mat-grid-tile>
-      <mat-spinner></mat-spinner>
-    </mat-grid-tile>
-  </mat-grid-list>
-</ng-template>
-
-<div *ngIf="user; else divLoading" class="grid p-4">
-  <mat-card class="col-12 sm:col-6">
-    <mat-card-header>
-      <mat-card-title>{{ user.name_user }}'s</mat-card-title>
-      <mat-card-title>Messages</mat-card-title>
-      <mat-list class="mt-5" *ngIf="user.messages">
-        <div *ngFor="let message of user.messages">
-          <div class="mt-5 cursor-pointer" (click)="selectUser(message)">
-            <mat-card-subtitle class="flex flex-row justify-content-start">
-              <mat-icon>account_circle</mat-icon>
-              {{ message.name }} : {{ message.message }}</mat-card-subtitle
-            >
-          </div>
-          <mat-divider></mat-divider>
+<div class="chat-container">
+  <div class="chat-sidebar">
+    <h2 class="sidebar-title">Chat de {{ user?.name_user }}</h2>
+    <h3 class="sidebar-subtitle">Selecciona un chat</h3>
+    <mat-list>
+      <mat-list-item
+        *ngFor="let chat of user?.messages"
+        (click)="changeChat(chat)"
+        [class.selected]="chat.name === onSelectedUser?.name"
+      >
+        <div class="avatar">
+          {{ chat.name.charAt(0) }}
         </div>
-      </mat-list>
-    </mat-card-header>
-  </mat-card>
-  <mat-card class="col-12 sm:col-6" *ngIf="user.messages.length > 0">
-    <mat-card-header>
-      <mat-card-title>Chat with </mat-card-title>
-      <mat-card-subtitle>UserName: {{ onSelectedUser.name }}</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      <mat-list>
-        <mat-list-item>Message from</mat-list-item>
-        <mat-list-item>Contact: {{ onSelectedUser.name }}</mat-list-item>
-        <mat-list-item>LastMessage: {{ onSelectedUser.message }}</mat-list-item>
-      </mat-list>
+        <div class="chat-info">
+          <strong class="chat-name">{{ chat.name }}</strong>
+          <p class="last-message">{{ chat.message }}</p>
+        </div>
+        <span class="timestamp">Ahora</span>
+      </mat-list-item>
+    </mat-list>
+  </div>
 
-      <button mat-button color="warn" (click)="goBack()">Back</button>
-    </mat-card-content>
-  </mat-card>
-  <mat-option *ngIf="user?.messages?.length === 0">
-    No tiene más mensajes hasta el momento
-  </mat-option>
+  <div class="chat-window" *ngIf="onSelectedUser?.name">
+    <h3>Conversación con {{ onSelectedUser.name }}</h3>
+
+    <div class="chat-box">
+      <mat-card
+        *ngFor="let msg of messagesMap.get(currentRoom)"
+        [class.sent]="msg.senderName === user?.name_user"
+        [class.received]="msg.senderName !== user?.name_user"
+      >
+        <mat-card-content>
+          <strong>{{ msg.senderName }}</strong>
+          <p>{{ msg.message }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <!-- 📌 Barra de entrada de mensaje -->
+    <form [formGroup]="chatForm" (ngSubmit)="sendMessage()" class="chat-input">
+      <mat-form-field class="message-input">
+        <mat-label>Escribe un mensaje...</mat-label>
+        <input matInput formControlName="messageInput" />
+      </mat-form-field>
+      <button
+        mat-icon-button
+        color="primary"
+        type="submit"
+        [disabled]="chatForm.invalid"
+      >
+        <mat-icon>send</mat-icon>
+      </button>
+    </form>
+
+    <div
+      *ngIf="
+        chatForm.controls['messageInput'].invalid &&
+        chatForm.controls['messageInput'].touched
+      "
+      class="error"
+    >
+      * El mensaje no puede estar vacío
+    </div>
+  </div>
+
+  <button mat-button color="warn" (click)="goBack()">Regresar</button>
 </div>

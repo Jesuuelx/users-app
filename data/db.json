@@ -8,14 +8,25 @@
       "last_message": "Detective Comics #27: Hey Batman, how are you?",
       "characters": "Bruce Wayne",
       "messages": [
-        {
-          "name": "Detective Comics #27",
-          "message": "Hey Batman, how are you?"
-        },
-        {
-          "name": "Bruce Wayne",
-          "message": "Hey Batman, how are you?"
-        }
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -26,14 +37,26 @@
       "last_message": "Action Comics #1: Hey Superman, how are you?",
       "characters": "Kal-El",
       "messages": [
-        {
-          "name": "Action Comics #1",
-          "message": "Hey Superman, how are you?"
-        },
-        {
-          "name": "Kal-El",
-          "message": "Hey Superman, how are you?"
-        }
+        { "name": "Batman", "message": "" },
+
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -44,14 +67,26 @@
       "last_message": "Flash Comics #1: Hey Flash, how are you?",
       "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
       "messages": [
-        {
-          "name": "Flash Comics #1",
-          "message": "Hey Flash, how are you?"
-        },
-        {
-          "name": "Jay Garrick",
-          "message": "Hey Flash, how are you?"
-        }
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -62,14 +97,26 @@
       "last_message": "All-American Comics #16: Hey Green Lantern, how are you?",
       "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz",
       "messages": [
-        {
-          "name": "All-American Comics #16",
-          "message": "Hey Green Lantern, how are you?"
-        },
-        {
-          "name": "Alan Scott",
-          "message": "Hey Green Lantern, how are you?"
-        }
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -80,14 +127,26 @@
       "last_message": "More Fun Comics #73: Hey Green Arrow, how are you?",
       "characters": "Oliver Queen",
       "messages": [
-        {
-          "name": "More Fun Comics #73",
-          "message": "Hey Green Arrow, how are you?"
-        },
-        {
-          "name": "Oliver Queen",
-          "message": "Hey Green Arrow, how are you?"
-        }
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -98,14 +157,26 @@
       "last_message": "All Star Comics #8: Hey Wonder, how are you?",
       "characters": "Princess Diana",
       "messages": [
-        {
-          "name": "All Star Comics #8",
-          "message": "Hey Wonder, how are you?"
-        },
-        {
-          "name": "Princess Diana",
-          "message": "Hey Wonder, how are you?"
-        }
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -116,14 +187,26 @@
       "last_message": "Detective Comics #225: Hey Martian, how are you?",
       "characters": "Martian Manhunter",
       "messages": [
-        {
-          "name": "Detective Comics #225",
-          "message": "Hey Martian, how are you?"
-        },
-        {
-          "name": "Martian Manhunter",
-          "message": "Hey Martian, how are you?"
-        }
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -134,14 +217,26 @@
       "last_message": "Detective Comics #38: Hey Robin, how are you?",
       "characters": "Dick Grayson",
       "messages": [
-        {
-          "name": "Detective Comics #38",
-          "message": "Hey Batman, how are you?"
-        },
-        {
-          "name": "Dick Grayson",
-          "message": "Hey Batman, how are you?"
-        }
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -152,11 +247,26 @@
       "last_message": "Mystery Men Comics #1: hey Blue, how are you?",
       "characters": "Dan Garret, Ted Kord, Jaime Reyes",
       "messages": [
-        {
-          "name": "Mystery Men Comics #2",
-          "message": "Hey Blue Beetle, how are you?"
-        },
-        { "name": "Dan Garret", "message": "Hey Batman, how are you?" }
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
       ]
     },
     {
@@ -166,7 +276,28 @@
       "email": "DinahDrake@google.com",
       "last_message": "Flash Comics #86: hey Black, how are you?",
       "characters": "Dinah Drake, Dinah Lance",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-spider",
@@ -175,7 +306,28 @@
       "email": "PeterParker@google.com",
       "last_message": "Amazing Fantasy #15: hey spiderman, how are you?",
       "characters": "Peter Parker",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-captain",
@@ -184,7 +336,28 @@
       "email": "SteveRogers@google.com",
       "last_message": "Captain America Comics #1: hey Captain, how are you?",
       "characters": "Steve Rogers",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-iron",
@@ -193,7 +366,28 @@
       "email": "TonyStark@google.com",
       "last_message": "Tales of Suspense #39: hey Iron, how are you?",
       "characters": "Tony Stark",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-thor",
@@ -202,7 +396,28 @@
       "email": "ThorOdinson@google.com",
       "last_message": "Journey into Myster #83; hey Thor, how are you?",
       "characters": "Thor Odinson",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-hulk",
@@ -211,7 +426,28 @@
       "email": "BruceBanner@google.com",
       "last_message": "The Incredible Hulk #1: hey Hulk, how are you?",
       "characters": "Bruce Banner",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-wolverine",
@@ -220,7 +456,28 @@
       "email": "JamesHowlett@google.com",
       "last_message": "The Incredible Hulk #180: hey Wolverine, how are you?",
       "characters": "James Howlett",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-daredevil",
@@ -229,7 +486,28 @@
       "email": "MatthewMichaelMurdock@google.com",
       "last_message": "Daredevil #1: hey Daredevil, how are you?",
       "characters": "Matthew Michael Murdock",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-hawkeye",
@@ -238,7 +516,28 @@
       "email": "ClintonFrancisBarton@google.com",
       "last_message": "Tales of Suspense #57: hey Hawkeye, how are you?",
       "characters": "Clinton Francis Barton",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+
+        { "name": "Cyclops", "message": "" },
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-cyclops",
@@ -247,7 +546,28 @@
       "email": "ScottSummers@google.com",
       "last_message": "X-Men #1: hey Cyclops, how are you?",
       "characters": "Scott Summers",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+
+        { "name": "Silver Surfer", "message": "" }
+      ]
     },
     {
       "id": "marvel-silver",
@@ -256,7 +576,27 @@
       "email": "NorrinRadd@google.com",
       "last_message": "The Fantastic Four #48: hey Silver, how are you?",
       "characters": "Norrin Radd",
-      "messages": []
+      "messages": [
+        { "name": "Batman", "message": "" },
+        { "name": "Superman", "message": "" },
+        { "name": "Flash", "message": "" },
+        { "name": "Green Lantern", "message": "" },
+        { "name": "Green Arrow", "message": "" },
+        { "name": "Wonder Woman", "message": "" },
+        { "name": "Martian Manhunter", "message": "" },
+        { "name": "Robin/Nightwing", "message": "" },
+        { "name": "Blue Beetle", "message": "" },
+        { "name": "Black Canary", "message": "" },
+        { "name": "Spider Man", "message": "" },
+        { "name": "Captain America", "message": "" },
+        { "name": "Iron Man", "message": "" },
+        { "name": "Thor", "message": "" },
+        { "name": "Hulk", "message": "" },
+        { "name": "Wolverine", "message": "" },
+        { "name": "Daredevil", "message": "" },
+        { "name": "Hawkeye", "message": "" },
+        { "name": "Cyclops", "message": "" }
+      ]
     }
   ]
 }
