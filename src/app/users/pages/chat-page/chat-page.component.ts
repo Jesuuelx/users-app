@@ -20,8 +20,10 @@ interface SelectMessage {
 export class ChatPageComponent implements OnInit, OnDestroy {
   public user?: User;
   public onSelectedUser: SelectMessage = { name: '', message: '' };
-  public messagesMap: Map<string, { senderName: string; message: string }[]> =
-    new Map();
+  public messagesMap: Map<
+    string,
+    { senderName: string; message: string; timestamp: string }[]
+  > = new Map();
   private apiSubscription?: Subscription;
   private socketSubscription?: Subscription;
   public currentRoom: string = '';
@@ -96,21 +98,27 @@ export class ChatPageComponent implements OnInit, OnDestroy {
 
     const message = this.chatForm.get('messageInput')?.value.trim();
     if (message && this.onSelectedUser?.name) {
-      const newMessage = { senderName: this.user!.name_user, message };
+      const timestamp = this.getCurrentDateTime(); // 📌 Obtener fecha y hora actuales
+
+      const newMessage = {
+        senderName: this.user!.name_user,
+        message,
+        timestamp,
+      };
 
       this.websocketService.sendMessage(
         this.user!.name_user,
         message,
         this.currentRoom
       );
-
+      this.saveMessage(this.currentRoom, newMessage);
       this.chatForm.reset();
     }
   }
 
   private saveMessage(
     room: string,
-    msg: { senderName: string; message: string }
+    msg: { senderName: string; message: string; timestamp: string }
   ) {
     if (!this.messagesMap.has(room)) {
       this.messagesMap.set(room, []);
@@ -127,8 +135,20 @@ export class ChatPageComponent implements OnInit, OnDestroy {
     }
   }
 
-  private getRoomId(user1: string, user2: string): string {
+  getRoomId(user1: string, user2: string): string {
     return [user1, user2].sort().join('_');
+  }
+
+  getCurrentDateTime(): string {
+    const now = new Date();
+    let hours = now.getHours();
+    const minutes = now.getMinutes();
+    const amPm = hours >= 12 ? 'PM' : 'AM';
+
+    hours = hours % 12 || 12; // Convierte formato 24h a 12h (1-12)
+    const formattedMinutes = minutes < 10 ? '0' + minutes : minutes; // Asegurar siempre dos dígitos en los minutos
+
+    return `${hours}:${formattedMinutes} ${amPm}`;
   }
 
   ngOnDestroy(): void {

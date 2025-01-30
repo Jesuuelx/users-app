@@ -16,7 +16,7 @@ mat-list-item {
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding: 10px;
+  padding: 20px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -87,4 +87,11 @@ mat-card {
 
 .message-input {
   flex: 1;
+}
+
+.last-message {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

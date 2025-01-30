@@ -4,9 +4,11 @@
 
 1. Clonar el proyecto
 2. Ejecutar `npm install`
-3. Levantar backend `npm run backend`
-4. Ejecutar la app `npm start` o bien `ng serve -o`
-5. Una vez ya corriendo el proyecto puedes ejecutar el comando `npm run test ` para correr los test automatizados en playwright, asegurate que tu localhost coincida con la url del archivo de testing
+3. Clonar el proyecto del Websocket (https://github.com/TeoGonz/nest-gateways)
+4. Instalar las dependencias del propio proyecto y levantar el backend del proyecto de WS.
+5. Levantar backend local `npm run backend`
+6. Ejecutar la app `npm start` o bien `ng serve -o`
+7. Una vez ya corriendo el proyecto puedes ejecutar el comando `npm run test ` para correr los test automatizados en playwright, asegurate que tu localhost coincida con la url del archivo de testing
 
 ## Arquitectura del Proyecto
 
@@ -27,7 +29,7 @@ La app esta realizada en Angular 19, adicionalmente se usaron librerias como mat
 
 ### Modulos Principales
 
-- **users**: Este consta de varias paginas importantes, layout page es lo que nos permite que el diseño que tenga esta pagina sea transparente en todos los demas componentes a continuacion, es decir que sea el mismo, list page que es la vista principal, search page que es la pagina donde esta el buscador que filtra los usuarios, chat page para ver el historial de cada usuario y user page que consta de el detalle del usuario
+- **users**: Este consta de varias paginas importantes, layout page es lo que nos permite que el diseño que tenga esta pagina sea transparente en todos los demas componentes a continuacion, es decir que sea el mismo, list page que es la vista principal, search page que es la pagina donde esta el buscador que filtra los usuarios chat page para ver los chats de cada usuario, en esta pagina se consume un servicio websocket con socket.io que nos permite hablar con cualquiera de la lista de usuario en tiempo real y user page que consta de el detalle del usuario
 - **material**: Este modulo se hizo exclusivamente para centralizar los componentes utilizados de la libreria material y de esta manera tener todo centralizado y tocar un solo archivo de ser necesario
 - **shared**: este modulo se hizo para centralizar una pagina de errores, esta aparece cuando elegimos una ruta que no existe sin embargo no tiene diseño
 - **auth** : la idea principal era iniciar desde un login pero no dio tiempo este modulo centraliza un layout personalizado lo que nos permite escalar a futuro en una pagina de registro tambien con diseño similar ademas de que se rige que la idea principal es que la pagina sea una web tipo administrador
