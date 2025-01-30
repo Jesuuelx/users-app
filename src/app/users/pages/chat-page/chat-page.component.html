@@ -6,16 +6,20 @@
       <mat-list-item
         *ngFor="let chat of user?.messages"
         (click)="changeChat(chat)"
-        [class.selected]="chat.name === onSelectedUser?.name"
+        [class.selected]="chat.name === onSelectedUser.name"
       >
-        <div class="avatar">
-          {{ chat.name.charAt(0) }}
-        </div>
         <div class="chat-info">
           <strong class="chat-name">{{ chat.name }}</strong>
-          <p class="last-message">{{ chat.message }}</p>
+          <ng-container
+            *ngIf="
+              messagesMap.get(getRoomId(user!.name_user, chat.name)) as messages
+            "
+          >
+            <span *ngIf="messages.length > 0" class="last-message">
+              {{ messages[messages.length - 1].message }}
+            </span>
+          </ng-container>
         </div>
-        <span class="timestamp">Ahora</span>
       </mat-list-item>
     </mat-list>
   </div>
@@ -30,8 +34,11 @@
         [class.received]="msg.senderName !== user?.name_user"
       >
         <mat-card-content>
-          <strong>{{ msg.senderName }}</strong>
-          <p>{{ msg.message }}</p>
+          <strong>{{ msg.senderName }} </strong>
+          <p>
+            {{ msg.message }}-
+            <span class="timestamp"> {{ msg.timestamp }}</span>
+          </p>
         </mat-card-content>
       </mat-card>
     </div>
