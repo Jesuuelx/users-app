@@ -20,10 +20,8 @@ interface SelectMessage {
 export class ChatPageComponent implements OnInit, OnDestroy {
   public user?: User;
   public onSelectedUser: SelectMessage = { name: '', message: '' };
-  public messagesMap: Map<
-    string,
-    { senderName: string; message: string; timestamp: string }[]
-  > = new Map();
+  public messagesMap: Map<string, { senderName: string; message: string }[]> =
+    new Map();
   private apiSubscription?: Subscription;
   private socketSubscription?: Subscription;
   public currentRoom: string = '';
@@ -99,16 +97,15 @@ export class ChatPageComponent implements OnInit, OnDestroy {
     const message = this.chatForm.get('messageInput')?.value.trim();
     if (message && this.onSelectedUser?.name) {
       const timestamp = this.getCurrentDateTime(); // 📌 Obtener fecha y hora actuales
-
+      const messageWithTime = `${message} - ${timestamp}`;
       const newMessage = {
         senderName: this.user!.name_user,
-        message,
-        timestamp,
+        message: messageWithTime,
       };
 
       this.websocketService.sendMessage(
         this.user!.name_user,
-        message,
+        messageWithTime,
         this.currentRoom
       );
       this.saveMessage(this.currentRoom, newMessage);
@@ -118,7 +115,7 @@ export class ChatPageComponent implements OnInit, OnDestroy {
 
   private saveMessage(
     room: string,
-    msg: { senderName: string; message: string; timestamp: string }
+    msg: { senderName: string; message: string }
   ) {
     if (!this.messagesMap.has(room)) {
       this.messagesMap.set(room, []);
