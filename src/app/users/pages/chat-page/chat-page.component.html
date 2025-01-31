@@ -35,12 +35,11 @@
       >
         <mat-card-content>
           <strong>{{ msg.senderName }} </strong>
-          <p>{{ msg.message }}-</p>
+          <p>{{ msg.message }}</p>
         </mat-card-content>
       </mat-card>
     </div>
 
-    <!-- 📌 Barra de entrada de mensaje -->
     <form [formGroup]="chatForm" (ngSubmit)="sendMessage()" class="chat-input">
       <mat-form-field class="message-input">
         <mat-label>Escribe un mensaje...</mat-label>

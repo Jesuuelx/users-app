@@ -95,3 +95,15 @@ mat-card {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+@media (max-width: 500px) {
+  .chat-container {
+    flex-direction: column;
+  }
+
+  .chat-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
